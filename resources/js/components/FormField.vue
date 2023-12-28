@@ -10,7 +10,7 @@
                 <div
                     class="
                         w-full overflow-break
-                        bg-gray-100 rounded
+                        bg-gray-100 dark:bg-gray-900 rounded
                     "
                     style="z-index: 10; position: sticky; top: 0; left: 0"
                 >
@@ -26,7 +26,7 @@
                             <template v-if="button == '|'">
                                 <button class="
                                     w-[1px] h-6 relative top-2 mx-1
-                                    bg-gray-400
+                                    bg-gray-400 dark:bg-gray-800
                                 ">
                                     
                                 </button>
